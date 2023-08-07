@@ -1,0 +1,2 @@
+Requires:
+  pip3 install paho-mqtt py-zabbix

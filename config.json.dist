@@ -1,0 +1,20 @@
+{
+  "mqtt": {
+    "username": "mqtt_username",
+    "password": "mqtt_pass",
+    "server": "mqtt.server.example.com",
+    "port": 8883,
+    "tls": true
+  },
+  "zabbix": {
+    "server": "192.168.1.100",
+    "host": "192.168.1.200"
+  },
+  "topics": {
+    "sensors/temp1/temperature": "Sensor1Temp",
+    "sensors/temp1/humidity": "Sensor1Hum",
+    "sensors/temp2/temperature": "Sensor2Temp",
+    "sensors/temp2/humidity": "Sensor2Hum",
+    "sensors/temp2/pm25": "Sensor2PM25"
+  }
+}
